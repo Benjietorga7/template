@@ -45,12 +45,18 @@ class UserController extends Controller
             'password' => ['required', Rules\Password::defaults()],
         ]);
 
+        // for storing after validation
        User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
 
+        session()->flash('status','Added User Succesfully');
+
+        session()->flash('status', 'Task was successful!');
+        
+        // Redirect tp the List 
         return redirect('/users');
     }
 

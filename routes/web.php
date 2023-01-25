@@ -19,6 +19,10 @@ Route::get('/homepage', function () {
     return view('homepage');
 });
 
+Route::get('/', function () {
+    return view('homepage');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -33,9 +37,7 @@ Route::get('/users/add', [UserController::class, 'form'])
 Route::post('/users/add', [UserController::class, 'store'])
         ->middleware(['auth', 'verified']);
 
- Route::get('users/dashboard', function () {
-            return view('dashboard');
-        });
+
 
 
 
