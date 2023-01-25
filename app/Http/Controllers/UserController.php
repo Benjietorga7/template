@@ -15,9 +15,17 @@ class UserController extends Controller
     public function index()
     {
         
-        return view ('users', [
+        return view ('users.users', [
             'header' => 'Users Management',
             'users' => User::all()
+        ]);
+    }
+
+    public function form()
+    {
+        
+        return view ('users.form', [
+            'header' => 'Add User',
         ]);
     }
 
