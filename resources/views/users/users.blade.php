@@ -14,8 +14,17 @@
                 <h2 class="float-left">
                     {{ $header }}
                 </h2>
+                 <a href="{{ url('/dashboard') }}">
+                     <button class="float-right rounded-full bg-indigo-800 p-1 hover:bg-sky-700 "> 
+                        Go back
+                     </button>
 
-                <button class="float-right rounded-full bg-indigo-800 p-1 hover:bg-sky-700 ">Add User</button>
+                <a href="{{ url('/users/add') }}">
+                     <button class="float-right rounded-full bg-indigo-800 p-1 hover:bg-sky-700 "> 
+                        Add User
+                     </button>
+                </a>
+                
                 
               <table class="table-auto w-full">
                   <thead>
@@ -38,7 +47,6 @@
                           </td>
                         </tr>
                   @endforeach
-
                   </tbody>
               </table>
 
