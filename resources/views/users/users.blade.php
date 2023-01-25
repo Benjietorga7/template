@@ -14,7 +14,7 @@
                 <h2 class="float-left">
                     {{ $header }}
                 </h2>
-                 <a href="{{ url('/dashboard') }}">
+                 <a href="{{ url('users/dashboard') }}">
                      <button class="float-right rounded-full bg-indigo-800 p-1 hover:bg-sky-700 "> 
                         Go back
                      </button>

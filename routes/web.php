@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/homepage', function () {
     return view('homepage');
 });
 
@@ -33,10 +33,11 @@ Route::get('/users/add', [UserController::class, 'form'])
 Route::post('/users/add', [UserController::class, 'store'])
         ->middleware(['auth', 'verified']);
 
-  
-Route::get('/users/dashboard', function () {
-            return view('homepage');
+ Route::get('users/dashboard', function () {
+            return view('dashboard');
         });
+
+
 
 
 
