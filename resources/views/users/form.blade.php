@@ -13,7 +13,7 @@
                 <div class="p-6 text-gray-900 dark:text-gray-100">
 
               
-                <form method="POST" action="{{ ( url()->current() ==  url('/users/add') ) ? url('/users/add'): url('/users/update') }}">
+                 <form method="POST" action="{{ ( url()->current() == url('/users/add') ) ? url('/users/add'):url('/users/update/' . $user->id) }}">
                 
         @csrf
 
