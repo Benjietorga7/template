@@ -28,7 +28,7 @@ class UserController extends Controller
 
     public function store(Request $request)
     {
-
+        //for validation
         $request->validate([
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:'.User::class],
@@ -44,7 +44,7 @@ class UserController extends Controller
 
         session()->flash('status','Added User Succesfully');
 
-        session()->flash('status', 'Task was successful!');
+       
         
         // Redirect tp the List 
         return redirect('/users');
@@ -63,11 +63,21 @@ class UserController extends Controller
 
     public function update(Request $request, $id)
     {
+        //for validation
+        $request->validate([
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255']
+        ]);
+ 
         $user = User::find($id);
 
         $user->update($request->all());
 
+        session()->flash('status', 'Updated successfully!');
+        return redirect('/users/update/' . $user->id);
         
+
+
     }
 
     
