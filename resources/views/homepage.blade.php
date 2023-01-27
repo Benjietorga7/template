@@ -17,6 +17,13 @@
             height: 500px;
             width:500px;
          }
+         .gallery img{
+            max-width: 100%;
+         }
+         .gallery{
+            padding: 80px 0px;
+         }
+
         </style>
 
         <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
@@ -50,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Project Two Row-->
+                <!-- ro1-->
                 <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/loc.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
@@ -83,20 +90,32 @@
                     </div>
                 </div>
                 <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/q2.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
-                                </div>
+                <section class="gallery">
+                    <div class="container-lg">
+                        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                            <div class="col">
+                                <img src="assets/img/q2.jpg" class="gallery-item" alt="Gallery1">
+                            </div>
+                            <div class="col">
+                                <img src="assets/img/q2.jpg" class="gallery-item" alt="Gallery1">
+                            </div>
+                            <div class="col">
+                                <img src="assets/img/q2.jpg" class="gallery-item" alt="Gallery1">
+                            </div>
+                            <div class="col">
+                                <img src="assets/img/q2.jpg" class="gallery-item" alt="Gallery1">
+                            </div>
+                            <div class="col">
+                                <img src="assets/img/q2.jpg" class="gallery-item" alt="Gallery1">
+                            </div>
+                            <div class="col">
+                                <img src="assets/img/q2.jpg" class="gallery-item" alt="Gallery1">
                             </div>
                         </div>
                     </div>
-                </div>
+                
+                </section>
+               
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
