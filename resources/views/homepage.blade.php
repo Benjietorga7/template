@@ -217,7 +217,7 @@
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="https://www.google.com/maps/place/Rey+Rose+Construction+and+Supply/@8.956078,125.5799941,17z/data=!4m5!3m4!1s0x3301ead3e9d33801:0x79ca49d34a61a9c!8m2!3d8.9560844!4d125.5822134" target="https://www.google.com/maps/place/Rey+Rose+Construction+and+Supply/@8.956078,125.5799941,17z/data=!4m5!3m4!1s0x3301ead3e9d33801:0x79ca49d34a61a9c!8m2!3d8.9560844!4d125.5822134">4923 Market Street, Orlando FL</a></div>
+                                <div class="small text-black-50"><a href="https://www.google.com/maps/place/Rey+Rose+Construction+and+Supply/@8.956078,125.5799941,17z/data=!4m5!3m4!1s0x3301ead3e9d33801:0x79ca49d34a61a9c!8m2!3d8.9560844!4d125.5822134" target="https://www.google.com/maps/place/Rey+Rose+Construction+and+Supply/@8.956078,125.5799941,17z/data=!4m5!3m4!1s0x3301ead3e9d33801:0x79ca49d34a61a9c!8m2!3d8.9560844!4d125.5822134">National Highway, Crossing Tiniwisan, Alviola Village, Butuan City, 8600 Agusan Del Norte</a></div>
                             </div>
                         </div>
                     </div>
@@ -227,7 +227,7 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><p>hello@yourdomain.com</p></div>
+                                <div class="small text-black-50"><p>Reyrose@gmail.com</p></div>
                             </div>
                         </div>
                     </div>
