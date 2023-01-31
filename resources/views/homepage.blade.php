@@ -32,6 +32,27 @@
             margin-bottom: 25px;
             color: gray;
          } 
+        .cards-wrapper{
+            display: flex;
+        }
+        
+        .carousel-inner .card{
+             margin: 0 .5em;
+            width: calc(100%/3);
+
+        }
+        .image-wrapper img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .image-wrapper{
+            height: 22vw;
+            margin:0 auto;
+           /* display: flex;
+            align-items: center;
+            justify-content: center;*/
+        }
+
 
         </style>
 
@@ -175,38 +196,112 @@
                 </div>
             </div>
         </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            
-                        </form>
-                    </div>
+        <!-- carousel-->
+        <section class="container-fluid my-5" id="id">
+           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="cards-wrapper">
+                    <div class="card">
+                        <div class="image-wrapper">
+                        <img src="assets/img/sand.jpg" class="card-img-top" alt="...">
+                        </div>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
-            </div>
+                </div><div class="card">
+                <div class="image-wrapper">
+                <img src="assets/img/sa.jpg" class="card-img-top" alt="...">
+                </div>
+                
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div><div class="card">
+                <div class="image-wrapper">
+                <img src="assets/img/qq.jpg" class="card-img-top" alt="...">
+                </div>
+                
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="cards-wrapper">
+                    <div class="card">
+                    <div class="image-wrapper">
+                    <img src="assets/img/ko.jpg" class="card-img-top" alt="...">
+                    </div>
+                
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div><div class="card">
+                <div class="image-wrapper">
+                 <img src="assets/img/rocks.jpg" class="card-img-top" alt="...">
+                </div>
+               
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div><div class="card">
+                <div class="image-wrapper">
+                 <img src="assets/img/qq.jpg" class="card-img-top" alt="...">
+                </div>
+               
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="cards-wrapper">
+                    <div class="card">
+                    <div class="image-wrapper">
+                    <img src="assets/img/qwe.jpg" class="card-img-top" alt="...">
+                    </div>
+                
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+                <div class="card">
+                <div class="image-wrapper">
+                <img src="assets/img/nut.jpg" class="card-img-top" alt="...">
+                </div>
+                
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div><div class="card">
+                <div class="image-wrapper">
+                <img src="assets/img/q2.jpg" class="card-img-top" alt="...">
+                </div>
+                
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            
+            
+            <!--end of carousler-->   
         </section>
+          
         <!-- Contact-->
         <section class="contact-section bg-black">
             <div class="container px-4 px-lg-5">
@@ -248,6 +343,7 @@
                     
                 </div>
             </div>
+
         </section>
       
     @endsection

@@ -26,6 +26,8 @@ Route::get('/homepage', function () {
         return view('homepage');
     })->middleware(['auth', 'verified'])->name('homepage');
 
+    
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
